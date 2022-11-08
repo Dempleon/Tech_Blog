@@ -3,3 +3,5 @@
 .env
 node_modules
 package-lock.json
+sample_dashboard.html
+sample_homepage.html
