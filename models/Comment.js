@@ -15,7 +15,7 @@ Comment.init(
             type: DataTypes.TEXT,
             allowNull: false,
         },
-        poster_id: {
+        user_id: {
             type: DataTypes.INTEGER,
             allowNull: false,
             references: {
@@ -40,3 +40,5 @@ Comment.init(
         modelNasme: 'comment',
     }
 )
+
+module.exports = Comment;
