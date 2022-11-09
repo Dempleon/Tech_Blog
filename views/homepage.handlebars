@@ -1,5 +1,12 @@
-{{#each blogpost as |blog|}}
+{{#each blogpost}}
 <div>
-    
+    <h2>
+        <a href="/blogs/{{blogpost.id}}">{{blogpost.subject}}</a>
+    </h2>
+    <div>
+        <p>
+            {{blogpost.blog_text}}
+        </p>
+    </div>
 </div>
 {{/each}}
