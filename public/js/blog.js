@@ -9,7 +9,7 @@ const blogPostHandler = async function (event) {
         const response = await fetch('/api/blogs', {
             method: 'POST',
             body: JSON.stringify({ subject, blogText }),
-            headers: { 'Content-Type': 'application/json' };
+            headers: { 'Content-Type': 'application/json' }
         });
 
         if (response.ok) {
